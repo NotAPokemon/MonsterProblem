@@ -9,7 +9,7 @@ public class App {
         List<Double> total = new ArrayList<>();
 
         for (int i = 0; i < 10; i++) {
-            total.add(App.simulate(200, 10000, 8, 100));
+            total.add(App.simulate(2000, 10000, 8, 100));
 
         }
 
