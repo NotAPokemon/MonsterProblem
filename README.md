@@ -37,7 +37,8 @@ if you have the best solution you will be put in on leaderboard
 
 # 1. NotAPokemon 
     average percentage: 97.2311%
-# 2.
+# 2. AarnavParashar
+    average percentage: 95.01334999999999%
 # 3.
 # 4.
 # 5.
