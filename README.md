@@ -33,4 +33,11 @@ you may see the methods we use to check your solution in the app.java file
 To submit this open a new issue titled Submition-{your user name}
 and in the discription create a new code block and copy paste your Solution.java file
 
-if you have the best solution you will be put in the leaderboard.json file
+if you have the best solution you will be put in on leaderboard
+
+# 1. NotAPokemon 
+    average percentage: 97.2311%
+# 2.
+# 3.
+# 4.
+# 5.

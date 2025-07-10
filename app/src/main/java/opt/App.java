@@ -6,7 +6,14 @@ public class App {
 
     public static void main(String[] args) {
 
-        System.out.println(App.simulate(200, 10000, 8, 100));
+        List<Double> total = new ArrayList<>();
+
+        for (int i = 0; i < 10; i++) {
+            total.add(App.simulate(200, 10000, 8, 100));
+
+        }
+
+        System.out.println(sum(total) / 10);
 
     }
 
