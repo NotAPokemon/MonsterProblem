@@ -4,11 +4,15 @@ import java.util.*;
 
 public class App {
 
+    static int c = 0;
+    static int t = 0;
+
     public static void main(String[] args) {
 
         List<Double> total = new ArrayList<>();
 
         for (int i = 0; i < 10; i++) {
+            c++;
             total.add(App.simulate(2000, 10000, 8, 100));
 
         }
@@ -26,10 +30,15 @@ public class App {
             int safe = 0;
 
             for (int j = 0; j < runs; j++) {
+                t++;
                 int[] playerPicks = randomSample(playerCount, 1, max);
                 int monster = 1 + (int) (Math.random() * max);
 
                 int you = Solution.safest_pick(playerPicks, max);
+
+                if (you > max || you < 1) {
+                    throw new ValueError(max, you, j, i, c, t);
+                }
 
                 if (!closest(playerPicks, you, monster).contains(you)) {
                     safe++;
