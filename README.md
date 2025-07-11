@@ -39,6 +39,7 @@ if you have the best solution you will be put in on leaderboard
     average percentage: 97.2311%
 # 2. AarnavParashar
     average percentage: 95.01334999999999%
-# 3.
+# 3. Siege Gaming
+    average percentage: 93.07265000000002%
 # 4.
 # 5.
